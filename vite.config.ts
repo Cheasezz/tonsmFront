@@ -12,7 +12,7 @@ export default defineConfig({
     vueDevTools(),
     nodePolyfills(),
   ],
-  base:"/",
+  base:"/tonsmFront/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

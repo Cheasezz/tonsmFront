@@ -14,7 +14,7 @@ app.use(createPinia())
 app.use(router)
 app.use(TonConnectUIPlugin, {
   manifestUrl: publicUrl(
-    'https://raw.githubusercontent.com/markokhman/func-course-chapter-5-code/master/public/manifest.json',
+    'https://cheasezz.github.io/tonsmFront/tonconnect-manifest.json',
   ),
 })
 app.mount('#app')
