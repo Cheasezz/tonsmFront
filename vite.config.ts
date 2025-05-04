@@ -15,4 +15,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  server: {
+    // Exposes your dev server and makes it accessible for the devices in the same network.
+    host: true,
+  },
+  publicDir: './public',
 })
